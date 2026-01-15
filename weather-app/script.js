@@ -28,7 +28,6 @@ function fetchWeather(city) {
         .then(response => response.json())
         .then(geoData => {
             if (!geoData.results) {
-                container.style.height = '400px';
                 weatherBox.style.display = 'none';
                 weatherDetails.style.display = 'none';
                 error404.style.display = 'block';

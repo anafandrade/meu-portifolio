@@ -34,7 +34,7 @@ body {
 }
 
 .weather-container.active {
-    height: 590px;
+    height: 720px;
 }
 
 .weather-container.error {
