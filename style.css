@@ -861,11 +861,12 @@ body {
     .btn-box {
         flex-direction: column;
         gap: 15px;
+        align-items: center;
     }
 
     .btn-box a {
-        width: 100%;
-        max-width: 250px;
+        width: auto;
+        max-width: 100%;
     }
 }
 
