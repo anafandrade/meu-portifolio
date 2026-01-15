@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <header>
+            <a href="../index.html" class="back-link"><i class="fas fa-arrow-left"></i> Voltar</a>
+            <h1>Previsão do Tempo</h1>
+        </header>
+
+        <div class="search-box">
+            <i class="fas fa-location-dot"></i>
+            <input type="text" id="city-input" placeholder="Digite o nome da cidade...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1163/1163657.png" alt="Cloud" id="weather-icon">
+                        <p class="temperature">--<span>°C</span></p>
+                        <p class="description">Digite uma cidade</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fas fa-water"></i>
+                <div class="text">
+                    <span id="humidity">--%</span>
+                    <p>Umidade</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fas fa-wind"></i>
+                <div class="text">
+                    <span id="wind-speed">-- km/h</span>
+                    <p>Vento</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="not-found">
+            <div class="box">
+                <img src="https://cdn-icons-png.flaticon.com/512/42/42901.png" alt="404">
+                <p>Localização não encontrada!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
