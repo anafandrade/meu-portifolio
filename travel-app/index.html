@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App - Ana Andrade</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="header-top">
+                <a href="../index.html" class="back-link"><i class="fas fa-arrow-left"></i> Voltar</a>
+                <span class="user-greeting">Olá, Viajante!</span>
+                <div class="user-avatar"><i class="fas fa-user-circle"></i></div>
+            </div>
+            <div class="header-content">
+                <h1>Descubra o<br>Mundo</h1>
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Para onde você quer ir?">
+                </div>
+            </div>
+        </header>
+
+        <main class="app-content">
+            <section class="categories">
+                <div class="category active"><i class="fas fa-plane"></i> Voos</div>
+                <div class="category"><i class="fas fa-hotel"></i> Hotéis</div>
+                <div class="category"><i class="fas fa-utensils"></i> Comer</div>
+                <div class="category"><i class="fas fa-map-marked-alt"></i> Tours</div>
+            </section>
+
+            <section class="destinations">
+                <h2>Destinos Populares</h2>
+                <div class="destination-cards">
+                    <div class="card">
+                        <div class="card-image" style="background-color: #e0f7fa; display: flex; align-items: center; justify-content: center; height: 150px;">
+                            <i class="fas fa-umbrella-beach fa-3x" style="color: #00bcd4;"></i>
+                        </div>
+                        <div class="card-info">
+                            <h3>Maldivas</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Oceano Índico</p>
+                            <div class="rating"><i class="fas fa-star"></i> 4.9</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image" style="background-color: #fce4ec; display: flex; align-items: center; justify-content: center; height: 150px;">
+                            <i class="fas fa-torii-gate fa-3x" style="color: #e91e63;"></i>
+                        </div>
+                        <div class="card-info">
+                            <h3>Kyoto</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Japão</p>
+                            <div class="rating"><i class="fas fa-star"></i> 4.8</div>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <div class="card-image" style="background-color: #e8f5e9; display: flex; align-items: center; justify-content: center; height: 150px;">
+                            <i class="fas fa-mountain fa-3x" style="color: #4caf50;"></i>
+                        </div>
+                        <div class="card-info">
+                            <h3>Alpes Suíços</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Suíça</p>
+                            <div class="rating"><i class="fas fa-star"></i> 5.0</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active"><i class="fas fa-home"></i></a>
+            <a href="#" class="nav-item"><i class="fas fa-heart"></i></a>
+            <a href="#" class="nav-item"><i class="fas fa-suitcase"></i></a>
+            <a href="#" class="nav-item"><i class="fas fa-cog"></i></a>
+        </nav>
+    </div>
+</body>
+</html>
