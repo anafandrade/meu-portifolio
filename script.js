@@ -142,8 +142,8 @@ function handleContactForm() {
         submitBtn.disabled = true;
 
         const templateParams = {
-            from_name: formData.get("name"),
-            from_email: formData.get("email"),
+            name: formData.get("name"),
+            email: formData.get("email"),
             subject: formData.get("subject"),
             message: formData.get("message"),
             to_name: "Ana Andrade"
