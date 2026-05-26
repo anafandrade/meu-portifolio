@@ -149,7 +149,7 @@ function handleContactForm() {
             to_name: "Ana Andrade"
         };
 
-        emailjs.send("service_p2fom5j", "template_pkh6p1t", templateParams)
+        emailjs.send("service_p2fom5j", "template_pkh6p1t", templateParams, "OaRVf052mgJIm77C4")
             .then(() => {
                 showNotification("Mensagem enviada com sucesso!", "success");
                 form.reset();
